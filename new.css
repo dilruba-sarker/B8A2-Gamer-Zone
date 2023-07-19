@@ -275,3 +275,41 @@ margin-bottom: 10px;
     color: transparent;
    -webkit-background-clip: text;}
    .online-pra p{ color: #534C64;}
+   /* career */
+   .carr-pic img{width: 100%;}
+   .new{width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d631aa;
+    padding: 20px;
+    color: white;
+    
+}
+.career{
+    width: 50%;
+    margin-left: 50px;
+}
+.carr-pic{width: 50%;
+    
+}
+.career-sub{display: flex; 
+    justify-content: space-between;
+}
+.butn{
+    background-color:white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      font-size: 15px;
+      color: #f74eca;
+      margin-left: -10px;
+      margin-top: 10px;
+      font-size: large;
+}
+.career h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: works sans;
+    margin-left: 10px;
+  
+}
