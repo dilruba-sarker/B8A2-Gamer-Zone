@@ -80,9 +80,6 @@ li{list-style: none;}
  background-size: cover;
  background-blend-mode: overlay;
  
-  
- 
-
 }
   .play h2, h1{margin-left: 150px;}
     .play  h1{ 
@@ -415,6 +412,95 @@ margin-bottom: 10px;
     font-size: 15px;
 }
 
+/* for mobaile */
+    @media screen and (max-width:576px){
+        
+/* 
+        .nav-container{
+  
+          flex-direction: column;
+         background-color: white;
+          
+          }
+          .logo-container{ 
+            display: flex;
+             
+        }
+        .menus{width: 100%;
+            flex-direction: column;
+            gap: 10px;
+        
+        }
+        .follow{display: flex;
+            gap: 10px;
+            border-radius: 8px;
+       
+            background: rgba(11, 2, 35, 0.10);
+        
+        }
+
+    } */
+
+    .benner{
+     
+    
+         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+       
+       flex-direction: column-reverse;
+         box-shadow: 0px 0px 1px wheat;
+         
+    }
+    .play{
+        width: 100%;
+       
+     
+    }
+    .play h2, h1{margin-left: 0px;}
+    .play  h1{ 
+     
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    
+.play h2{
+    
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+
+
+.pic-play{
+    width: 100%;
+}
+.no-play{ display: flex;
+             width: 100%;
+             /* text-align: center; */
+             margin: 0 auto;
+             margin-top: -10px;
+            }
+.pic-play img{width: 50%;}
+
+.btn{ text-align: center; }
+.btn1{
+    
+      padding: 1px 2px;
+      
+  
+      margin-right: 0px;
+      
+}
+.btn2{
+      background-color:#4EC5F7;
+      padding: 15px 20px;
+      border: none;
+      border-radius:  20px;
+      font-size: 15px;
+      color: white;
+}
+}
   
      
 
