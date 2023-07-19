@@ -1,12 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Work+Sans:wght@600;800&display=swap');
 
-.desi{font-size: 60px;
-       position: absolute;
-    top: 0;
-    bottom: 0;
-
-right: 0;
-left: 0;
-    
-
-       margin:   100px;
+body{
+    width: 1200px;
+    background-color: beige;
+    font-family: 'Work Sans',
 }
+
+.nav-container{
+  
+  display: flex;
+  justify-content: space-around;
+
+ 
+ /* padding: 20px; */
+  margin-left: 38px;
+  margin-right: 20px;
+ 
+  background-color: white;
+
+}
+.logo-container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.logo-container img{ width: 80px;height: 40px;
+  
+     
+}
+
+
+.menus{width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    align-items: center;
+}
+.follow{display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    
+}
+li{list-style: none;}
+.follow img{width: 15%;} 
+
+.span{
+    background-image:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+     color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Work Sans;
+    line-height: normal;
+
+} 
+
+/* start banner */
+.benner{
+    width: 1140px;
+     background: #fafafa;
+     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+     margin-left: 40px;
+     display: flex;
+     box-shadow: 0px 0px 1px wheat;
+     
+}
+.play{
+    width: 50%;
+    height: 100%;
+
+  background-image: url("./images/Group\ 14.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-blend-mode: overlay;
+ 
+  
+ 
+
+}
+  .play h2, h1{margin-left: 150px;}
+    .play  h1{ 
+        color:#0B0223;
+        font-family: work Sans;
+        font-size: 35px;
+        font-weight: 600;
+        
+        text-transform: uppercase;
+        /* margin-top: 70px; */
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+.play h2{
+    font-family: work Sans;
+    font-size: 65px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+margin-top: 10px;
+margin-bottom: 10px;
+
+
+}
+
+
+
+.pic-play{
+    width: 50%;
+}
+.no-play{ display: flex;
+             width: 50%;
+             /* text-align: center; */
+             margin: 0 auto;
+             margin-top: -10px;
+            }
+.pic-play img{width: 70%;}
+
+.btn{ text-align: center; }
+.btn1{
+      background-color:#f74eca;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 30px;
+      font-size: 15px;
+      color: white;
+      margin-right: 40px;
+      
+}
+.btn2{
+      background-color:#4EC5F7;
+      padding: 15px 20px;
+      border: none;
+      border-radius:  20px;
+      font-size: 15px;
+      color: white;
+}
+
+/* start gammer */
+.gamer{display: flex; width: 1140px;  background-color: antiquewhite; 
+    margin-left: 40px;
+
+}
+.gamer-pic{width: 50%; }
+.gamer-pic img{ width: 100%;}
+.gamer-desc{width: 40%;}
+
+.btn3{
+  position: absolute;
+  right: 100px;
+  background-color:#f74eca;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 30px;
+      font-size: 15px;
+      color: white;
+      margin-right: 20px;
+
+}
+
+.gamer-desc  h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Work Sans;
+  
+}
+
+.gamer-desc p,h5{text-align: right; color: rgb(92, 91, 91); }
+.gamer-desc h4{ text-align: right; 
+               font-size: 20px;
+               font-weight: 700px;
+               color: #534C64;
+}
+/* start vedios */
+.span1{   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+   -webkit-background-clip: text;}
+  
+
+   .vedio h2,p{ text-align: center;}
+
+   .vedio h2{font-size: 30px; 
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 600px;}
+
+    .vedio p{color: #534C64; font-size: 12px;}
+    .box-container{width:80%; height: 100%;
+    
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+     margin: 0 auto;
+   
+    }
+    
+    .box img{ width:100% ;}
+    .box{width: 90%; 
+       border-radius: 10px;
+        box-shadow: 0px 0px 2px rgb(246, 240, 240);
+        margin-left: 50px;
+        
+    }
+
+    /* install */
+    .install{
+        width: 1140px;
+        display: flex;
+      
+       
+    }
+
+    .install-para{width: 30%; 
+         
+            margin: auto;
+            margin-right: 20px;
+        
+        }
+
+        .install-para h2{
+          text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            font-family: Work Sans;
+            
+          
+        }
+        .install-para p{ color: #534C64;}
+    .install-pic{width: 50%; }
+    .install-pic .horse{ width: 60%; 
+         margin-left: 60px;  }
+    .install-pic .cartoon{ width: 40%; 
+       position: relative;
+       bottom: 100px;
+    }
+/* online */
+.online{width: 1140px;
+   
+    display: flex;}
+    .online-pra{
+        width: 35%; 
+         
+            margin: auto;
+            margin-left: 20px;
+    }
+
+   .box .desi{font-size: 60px;
+    color: red;
+     position: absolute;
+     margin: 80px;
+ }
+
+    .online-pic{width: 50%;text-align: center;
+           }
+    .online-pic .horse{ width: 60%; 
+  }
+  .online-pic .cat{ width: 40%;
+     margin-left:250px ;
+     position: relative;
+       bottom: 100px;
+  }
+  .online-pra h2{
+      margin-right: 60px;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: Work Sans;
+      
+    
+  }
+  .span3{   background-image:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: transparent;
+   -webkit-background-clip: text;}
+   .online-pra p{ color: #534C64;}
+   /* career */
+   .carr-pic img{width: 100%;}
+   .new{width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d631aa;
+    padding: 20px;
+    color: white;
+    
+}
+.career{
+    width: 50%;
+    margin-left: 50px;
+}
+.carr-pic{width: 50%;
+    
+}
+.career-sub{display: flex; 
+    justify-content: space-between;
+}
+.butn{
+    background-color:white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      font-size: 15px;
+      color: #f74eca;
+      margin-left: -10px;
+      margin-top: 10px;
+      font-size: large;
+}
+.career h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: works sans;
+    margin-left: 10px;
+  
+}
+/* wrap */
+.wrep{ width: 80%; margin-top: 20px;
+       height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+   gap: 20px;
+   text-align: center;
+   margin-left: 80px;
+}
+
+.wrep img{ width: 25%;}
+.new-box{
+    display: flex;
+    gap:5px;
+    width: 180px;
+    height: 60px;
+    font-weight: 600;
+    font-size: large;
+    /* border: 2px solid rgb(163, 33, 33); */
+    border-radius: 45px;
+    color: #0B0223;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 5px rgb(209, 208, 208);
+         }
+ .wrep>.new-box:hover{
+    display: flex;
+    gap:5px;
+    width: 180px;
+    height: 60px;
+    border: 2px solid rgb(163, 33, 33);
+    border-radius: 45px;
+    color: #ba118d ;
+    font-weight: 600;
+    font-size: large;
+    padding: 5px 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(209, 208, 208);
+         }
+
+.footer1{
+   
+     /* text-align: center;  */
+    }
+
+.footer img{ width: 80px;height: 40px;  }
+.img3{margin-left: 400px;  }
+.title{text-align: center;
+     color: white;
+     position: relative;
+     bottom:70px
+   ;}
+
+   .class{ background-color: #10052b;
+     padding: 30px;
+     margin-top: 50px;
+     width: 1140px; height: 100%;}
+
+     
+.text{display: flex;
+    flex-wrap: wrap;
+  gap: 15px;
+  width: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+    color: white;
+    font-size: 18px;
+}
+
+.social{
+    font-size: 20px;
+    color: wheat;
+    /* text-align: center; */
+    display: flex;
+   
+  gap: 15px;
+  width: 30%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+    
+}
+     
+.text1{display: flex;
+    flex-wrap: wrap;
+  gap: 12px;
+  width: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+    color: white;
+    font-size: 15px;
+}
+
+  
+     
+
