@@ -339,7 +339,7 @@ margin-bottom: 10px;
     padding: 5px 10px;
     box-shadow: 1px 1px 5px rgb(209, 208, 208);
          }
-.new-box1{
+ .wrep>.new-box:hover{
     display: flex;
     gap:5px;
     width: 180px;
