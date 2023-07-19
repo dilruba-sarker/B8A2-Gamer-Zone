@@ -252,11 +252,19 @@ margin-bottom: 10px;
             margin-left: 20px;
     }
 
-   .box .desi{font-size: 60px;
+   .box .desi{font-size: 40px;
     color: red;
      position: absolute;
-     margin: 80px;
+     margin:110px 0px -0px -100px;
+
  }
+ .po{position: relative;
+    bottom: 120px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.box .pa{  position: relative;
+    bottom: 90px;}
 
     .online-pic{width: 50%;text-align: center;
            }
