@@ -68,6 +68,7 @@ li{list-style: none;}
      margin-left: 40px;
      display: flex;
      box-shadow: 0px 0px 1px wheat;
+     
 }
 .play{
     width: 50%;
@@ -149,7 +150,7 @@ margin-bottom: 10px;
     margin-left: 40px;
 
 }
-.gamer-pic{width: 50%;}
+.gamer-pic{width: 50%; }
 .gamer-pic img{ width: 100%;}
 .gamer-desc{width: 40%;}
 
@@ -313,3 +314,99 @@ margin-bottom: 10px;
     margin-left: 10px;
   
 }
+/* wrap */
+.wrep{ width: 80%; margin-top: 20px;
+       height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+   gap: 20px;
+   text-align: center;
+   margin-left: 80px;
+}
+
+.wrep img{ width: 25%;}
+.new-box{
+    display: flex;
+    gap:5px;
+    width: 180px;
+    height: 60px;
+    font-weight: 600;
+    font-size: large;
+    /* border: 2px solid rgb(163, 33, 33); */
+    border-radius: 45px;
+    color: #0B0223;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 5px rgb(209, 208, 208);
+         }
+.new-box1{
+    display: flex;
+    gap:5px;
+    width: 180px;
+    height: 60px;
+    border: 2px solid rgb(163, 33, 33);
+    border-radius: 45px;
+    color: #ba118d ;
+    font-weight: 600;
+    font-size: large;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 5px rgb(209, 208, 208);
+         }
+
+.footer1{
+   
+     /* text-align: center;  */
+    }
+
+.footer img{ width: 80px;height: 40px;  }
+.img3{margin-left: 400px;  }
+.title{text-align: center;
+     color: white;
+     position: relative;
+     bottom:70px
+   ;}
+
+   .class{ background-color: #10052b;
+     padding: 30px;
+     width: 1140px; height: 100%;}
+
+     
+.text{display: flex;
+    flex-wrap: wrap;
+  gap: 15px;
+  width: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+    color: white;
+    font-size: 18px;
+}
+
+.social{
+    font-size: 20px;
+    color: wheat;
+    /* text-align: center; */
+    display: flex;
+   
+  gap: 15px;
+  width: 30%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+    
+}
+     
+.text1{display: flex;
+    flex-wrap: wrap;
+  gap: 12px;
+  width: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 70px;
+    color: white;
+    font-size: 15px;
+}
+
+  
+     
+
